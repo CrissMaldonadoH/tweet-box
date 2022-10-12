@@ -1,0 +1,2 @@
+# tweet box
+ Hey friends, today you’ll learn how to create a Tweet Box with Character Limit Highlighting in JavaScript. You’ll also learn to limit input characters. There is a limit of 280 characters in this tweet box, which means you can type 1-280 length/number of characters. Once you crossed the limit then the tweet button is again disabled and the counter color is also charged into red and it shows you how many characters that you have to remove to tweet or proceed.
