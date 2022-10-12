@@ -1,0 +1,96 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+	background-color: #1d9bf0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+	display: flex;
+    width: 70%;
+    background-color: #fff;
+    border-radius: 15px;
+    height: 250px;
+    padding: 2%;
+}
+
+.container .photo{
+	width: 10%;
+}
+
+.container .photo img{
+	width: 100%;
+    border-radius: 50%;
+}
+
+.container .tweet-box{
+	width: 85%;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 3%;
+}
+
+.container .tweet-box .tweet{
+	height: 60%;
+    width: 90%;
+    outline: none;
+    font-size: medium;
+}
+
+.container .tweet-box .elements {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.container .tweet-box .elements .progress{
+	position: relative;
+  	height: 50px;
+  	width: 50px;
+  	border-radius: 50%;
+  	display: grid;
+  	place-items: center;
+  	background-color: #d9d9d9;
+}
+
+.container .tweet-box .elements .progress:before {
+  content: "";
+  position: absolute;
+  height: 84%;
+  width: 84%;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+
+
+.container .tweet-box .elements .progress .counter {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #1d9bf0;
+}
+
+.container .tweet-box .elements .btn{
+	background-color: #1d9bf0;
+    border: none;
+    padding: 2% 5%;
+    border-radius: 30px;
+    color: #fff;
+    font-size: large;
+    font-weight: 600;
+}
+
+	
